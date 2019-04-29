@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "2d092ae7f8c1aa3f3f8065feed3c630f",
@@ -1004,12 +1004,12 @@
             "version": "v2.5.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
                 "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b",
                 "shasum": ""
             },
@@ -1174,16 +1174,16 @@
         },
         {
             "name": "friendsofsymfony/user-bundle",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSUserBundle.git",
-                "reference": "81a5d664dc569b5db298d4eb65c50a75b28fee1e"
+                "reference": "2acc0d7d4b0d2e0a6253c532891cadff2a9dc34f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/81a5d664dc569b5db298d4eb65c50a75b28fee1e",
-                "reference": "81a5d664dc569b5db298d4eb65c50a75b28fee1e",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/2acc0d7d4b0d2e0a6253c532891cadff2a9dc34f",
+                "reference": "2acc0d7d4b0d2e0a6253c532891cadff2a9dc34f",
                 "shasum": ""
             },
             "require": {
@@ -1204,7 +1204,7 @@
                 "doctrine/doctrine-bundle": "^1.3",
                 "friendsofphp/php-cs-fixer": "^1.11",
                 "phpunit/phpunit": "~4.8|~5.0",
-                "swiftmailer/swiftmailer": "^4.3 || ^5.0",
+                "swiftmailer/swiftmailer": "^4.3 || ^5.0 || ^6.0",
                 "symfony/console": "^2.7 || ^3.0",
                 "symfony/phpunit-bridge": "^2.7 || ^3.0",
                 "symfony/validator": "^2.7 || ^3.0",
@@ -1247,7 +1247,7 @@
             "keywords": [
                 "User management"
             ],
-            "time": "2017-04-20 10:41:16"
+            "time": "2018-03-30T07:19:34+00:00"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -1889,7 +1889,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {
@@ -2914,24 +2914,25 @@
         },
         {
             "name": "sylius/grid",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/Grid.git",
-                "reference": "b7bc1a8f22e6b3e1001f14ba6dc4884385370270"
+                "reference": "cf48b533ba0ccb13d443c523e08908213cfb8df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Grid/zipball/b7bc1a8f22e6b3e1001f14ba6dc4884385370270",
-                "reference": "b7bc1a8f22e6b3e1001f14ba6dc4884385370270",
+                "url": "https://api.github.com/repos/Sylius/Grid/zipball/cf48b533ba0ccb13d443c523e08908213cfb8df9",
+                "reference": "cf48b533ba0ccb13d443c523e08908213cfb8df9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6|^7.0",
-                "sylius/registry": "^1.0"
+                "php": "^7.1",
+                "sylius/registry": "^1.0",
+                "webmozart/assert": "^1.1"
             },
             "require-dev": {
-                "phpspec/phpspec": "^3.2",
+                "phpspec/phpspec": "^4.0",
                 "symfony/property-access": "^3.2"
             },
             "type": "library",
@@ -2951,20 +2952,20 @@
             ],
             "authors": [
                 {
-                    "name": "Sylius project",
-                    "homepage": "http://sylius.org"
-                },
-                {
                     "name": "Community contributions",
                     "homepage": "http://github.com/Sylius/Sylius/contributors"
                 },
                 {
                     "name": "Paweł Jędrzejewski",
                     "homepage": "http://pjedrzejewski.com"
+                },
+                {
+                    "name": "Sylius project",
+                    "homepage": "http://sylius.com"
                 }
             ],
             "description": "PHP library to handle building grid of objects with fields and filters support.",
-            "homepage": "http://sylius.org",
+            "homepage": "http://sylius.com",
             "keywords": [
                 "admin",
                 "api",
@@ -2975,55 +2976,57 @@
                 "shop",
                 "sylius"
             ],
-            "time": "2017-03-27 12:49:47"
+            "time": "2018-04-22T11:33:55+00:00"
         },
         {
             "name": "sylius/grid-bundle",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/SyliusGridBundle.git",
-                "reference": "846ffbfa3f9d64e4acbc8301dc5d39e68b84fe1d"
+                "reference": "8ab141fce84d8e04f2d47e30c05a72f2ac61fdca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/SyliusGridBundle/zipball/846ffbfa3f9d64e4acbc8301dc5d39e68b84fe1d",
-                "reference": "846ffbfa3f9d64e4acbc8301dc5d39e68b84fe1d",
+                "url": "https://api.github.com/repos/Sylius/SyliusGridBundle/zipball/8ab141fce84d8e04f2d47e30c05a72f2ac61fdca",
+                "reference": "8ab141fce84d8e04f2d47e30c05a72f2ac61fdca",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6|^7.0",
+                "php": "^7.1",
                 "sylius/grid": "^1.0",
                 "symfony/form": "^3.2",
                 "symfony/framework-bundle": "^3.2",
                 "symfony/templating": "^3.2"
             },
+            "conflict": {
+                "twig/twig": "^1.0"
+            },
             "require-dev": {
-                "akeneo/phpspec-skip-example-extension": "^2.0",
-                "doctrine/doctrine-bundle": "~1.3",
+                "akeneo/phpspec-skip-example-extension": "^3.0",
+                "doctrine/doctrine-bundle": "^1.3",
                 "doctrine/orm": "^2.5",
-                "doctrine/phpcr-odm": "^1.3.0",
-                "incenteev/composer-parameter-handler": "~2.0",
+                "doctrine/phpcr-odm": "^1.3",
                 "jackalope/jackalope-doctrine-dbal": "^1.2",
-                "matthiasnoback/symfony-config-test": "^2.0",
-                "matthiasnoback/symfony-dependency-injection-test": "^1.0",
+                "matthiasnoback/symfony-config-test": "^3.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^2.0",
+                "ocramius/proxy-manager": "^2.1",
                 "pagerfanta/pagerfanta": "^1.0",
-                "phpspec/phpspec": "^3.2",
-                "phpunit/phpunit": "^5.6",
+                "phpspec/phpspec": "^4.0",
+                "phpunit/phpunit": "^6.5",
                 "polishsymfonycommunity/symfony-mocker-container": "^1.0",
                 "symfony/browser-kit": "^3.2",
+                "symfony/dependency-injection": "^3.2",
+                "symfony/proxy-manager-bridge": "^3.3",
                 "symfony/security-csrf": "^3.2",
                 "symfony/twig-bundle": "^3.2",
                 "symfony/validator": "^3.2",
-                "twig/twig": "^1.28"
+                "twig/twig": "^2.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0-dev"
-                },
-                "incenteev-parameters": {
-                    "file": "test/app/config/parameters.yml"
                 }
             },
             "autoload": {
@@ -3037,20 +3040,20 @@
             ],
             "authors": [
                 {
-                    "name": "Sylius project",
-                    "homepage": "http://sylius.org"
-                },
-                {
                     "name": "Community contributions",
                     "homepage": "http://github.com/Sylius/Sylius/contributors"
                 },
                 {
                     "name": "Paweł Jędrzejewski",
                     "homepage": "http://pjedrzejewski.com"
+                },
+                {
+                    "name": "Sylius project",
+                    "homepage": "http://sylius.com"
                 }
             ],
             "description": "Amazing grids with support of filters and custom fields integrated into Symfony.",
-            "homepage": "http://sylius.org",
+            "homepage": "http://sylius.com",
             "keywords": [
                 "admin",
                 "crud",
@@ -3061,29 +3064,29 @@
                 "sylius",
                 "webshop"
             ],
-            "time": "2017-03-29 06:55:44"
+            "time": "2018-06-11T08:25:07+00:00"
         },
         {
             "name": "sylius/registry",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/Registry.git",
-                "reference": "860f16eb830c1ea22a1bbd112a8227b6494eb8a6"
+                "reference": "ae499f90dc8800268c2d87ef1589e50572616316"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Registry/zipball/860f16eb830c1ea22a1bbd112a8227b6494eb8a6",
-                "reference": "860f16eb830c1ea22a1bbd112a8227b6494eb8a6",
+                "url": "https://api.github.com/repos/Sylius/Registry/zipball/ae499f90dc8800268c2d87ef1589e50572616316",
+                "reference": "ae499f90dc8800268c2d87ef1589e50572616316",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6|^7.0",
+                "php": "^7.1",
                 "webmozart/assert": "^1.0",
                 "zendframework/zend-stdlib": "^3.1"
             },
             "require-dev": {
-                "phpspec/phpspec": "^3.2"
+                "phpspec/phpspec": "^4.0"
             },
             "type": "library",
             "extra": {
@@ -3102,52 +3105,51 @@
             ],
             "authors": [
                 {
-                    "name": "Sylius project",
-                    "homepage": "http://sylius.org"
-                },
-                {
                     "name": "Community contributions",
                     "homepage": "http://github.com/Sylius/Sylius/contributors"
                 },
                 {
                     "name": "Paweł Jędrzejewski",
                     "homepage": "http://pjedrzejewski.com"
+                },
+                {
+                    "name": "Sylius project",
+                    "homepage": "http://sylius.com"
                 }
             ],
             "description": "Services registry.",
-            "homepage": "http://sylius.org",
+            "homepage": "http://sylius.com",
             "keywords": [
                 "registry",
                 "services"
             ],
-            "time": "2017-01-26 10:58:45"
+            "time": "2018-04-22T11:33:55+00:00"
         },
         {
             "name": "sylius/resource",
-            "version": "dev-master",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/Resource.git",
-                "reference": "abb9b4febf3a2788fdb0f5a8ec13a0a9d0c47e6d"
+                "reference": "b5fb4c490ac3507cd82a4a7d0aad5d3606453825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Resource/zipball/abb9b4febf3a2788fdb0f5a8ec13a0a9d0c47e6d",
-                "reference": "abb9b4febf3a2788fdb0f5a8ec13a0a9d0c47e6d",
+                "url": "https://api.github.com/repos/Sylius/Resource/zipball/b5fb4c490ac3507cd82a4a7d0aad5d3606453825",
+                "reference": "b5fb4c490ac3507cd82a4a7d0aad5d3606453825",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "^2.6",
                 "gedmo/doctrine-extensions": "^2.4",
                 "pagerfanta/pagerfanta": "^1.0",
-                "php": "^5.6|^7.0",
+                "php": "^7.1",
                 "symfony/event-dispatcher": "^3.2",
-                "symfony/polyfill-php70": "~1.0",
                 "symfony/property-access": "^3.2",
                 "winzou/state-machine": "^0.3"
             },
             "require-dev": {
-                "phpspec/phpspec": "^3.2",
+                "phpspec/phpspec": "^4.0",
                 "sylius/locale": "^1.0"
             },
             "suggest": {
@@ -3170,20 +3172,20 @@
             ],
             "authors": [
                 {
-                    "name": "Sylius project",
-                    "homepage": "http://sylius.org"
-                },
-                {
                     "name": "Community contributions",
                     "homepage": "http://github.com/Sylius/Sylius/contributors"
                 },
                 {
                     "name": "Paweł Jędrzejewski",
                     "homepage": "http://pjedrzejewski.com"
+                },
+                {
+                    "name": "Sylius project",
+                    "homepage": "http://sylius.com"
                 }
             ],
             "description": "Basic resource interfaces for PHP applications.",
-            "homepage": "http://sylius.org",
+            "homepage": "http://sylius.com",
             "keywords": [
                 "api",
                 "doctrine",
@@ -3192,7 +3194,7 @@
                 "shop",
                 "sylius"
             ],
-            "time": "2017-04-05 14:25:24"
+            "time": "2018-04-22T11:33:55+00:00"
         },
         {
             "name": "sylius/resource-bundle",
@@ -3290,7 +3292,7 @@
                 "storage",
                 "sylius"
             ],
-            "time": "2017-04-11 12:46:23"
+            "time": "2017-04-11T12:46:23+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -3406,6 +3408,64 @@
             "time": "2016-11-14T01:06:16+00:00"
         },
         {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                },
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
             "name": "symfony/polyfill-intl-icu",
             "version": "v1.3.0",
             "source": {
@@ -3465,16 +3525,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.3.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
                 "shasum": ""
             },
             "require": {
@@ -3486,7 +3546,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -3520,7 +3580,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -3894,36 +3954,40 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.3.2",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "85e8372c451510165c04bf781295f9d922fa524b"
+                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/85e8372c451510165c04bf781295f9d922fa524b",
-                "reference": "85e8372c451510165c04bf781295f9d922fa524b",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
+                "reference": "82a1c055c8ed4c4705023bfd0405f3c74db6e3ae",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "symfony/polyfill-ctype": "^1.8",
+                "symfony/polyfill-mbstring": "^1.3"
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.3@dev"
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.9-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
                     "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3944,16 +4008,16 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2017-04-21T00:13:02+00:00"
+            "time": "2019-04-28T06:57:38+00:00"
         },
         {
             "name": "vich/uploader-bundle",
@@ -4247,7 +4311,7 @@
             ],
             "authors": [
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com"
                 }
             ],
